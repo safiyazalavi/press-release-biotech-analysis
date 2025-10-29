@@ -1,0 +1,301 @@
+row_id,sent_id,text,aspects,polarity,opinion_sample
+2,2_0,"Phase 1 was well-tolerated, and treatment-related adverse events (AEs) were all expected and generally dose-dependent, noted on January 2, 2024.","safety,phase",POS,well-tolerated
+3,3_0,"Phase 2/3 results missed a primary endpoint on the LS Mean difference (SE) points between treated and placebo, noted January 2, 2024.","endpoint,phase",NEG,missed
+8,8_0,"Phase 3 data reported that the trial met its primary endpoint and key secondary endpoints, noted January 3, 2024.","endpoint,phase,financial",POS,met
+9,9_0,"Phase 3 data reported that the trial met its primary endpoint, noted January 3, 2024.","endpoint,phase",POS,met
+10,10_0,"Phase 3 data reported that the trial met its primary endpoint, noted January 3, 2024.","endpoint,phase",POS,met
+16,16_0,"Additional Phase 1/2 data reported that an additional Ewing sarcoma patient treated with seclidemstat, topotecan and cyclophosphamide (TC) has achieved a partial response as demonstrated by at least a",phase,POS,achieved
+19,19_0,Phase 1 MAD results from 24 healthy volunteers showed that study was well tolerated in participants over the entire dose range and resulted in no safety signals of concern.,"safety,phase",POS,well tolerated
+24,24_0,"Phase 2 trial met its primary endpoint, noted January 4, 2024.","endpoint,phase",POS,met
+29,29_0,"Phase 3 topline data demonstrated that while a trend favored active treatment, the difference between active and placebo treated groups (0.30 ml/kg/min) was not statistically significant, noted Januar",phase,NEU,statistically significant
+30,30_0,"Phase 3 topline data demonstrated that while a trend favored active treatment, the difference between active and placebo treated groups (0.30 ml/kg/min) was not statistically significant, noted Januar",phase,NEU,statistically significant
+31,31_0,"Phase 4 data reported that the trial did not show a statistically significant difference between YUPELRI and Spiriva HandiHaler on the primary endpoint, noted January 5, 2024.",endpoint,POS,statistically significant
+46,46_0,"Phase 2b trial met its primary endpoint, noted January 8, 2024.",endpoint,POS,met
+51,51_0,Phase 2 data presented at the Biotech Showcase showed that dose was statistically significant drug effects were observed in FDA-recognized efficacy endpoints as early as the 15-day first visit after d,phase,POS,statistically significant
+53,53_0,"Phase 2a trial did not meet its primary endpoint, noted January 8, 2024.",endpoint,NEG,did not meet
+56,56_0,"Phase 2 primary endpoint was met in its randomized, placebo-controlled study, noted on January 8, 2024.","endpoint,phase",POS,met
+57,57_0,"Phase 3 trial met its primary endpoint, noted January 8, 2024.","endpoint,phase",POS,met
+61,61_0,"Phase 1b data demonstrated potential best-in-class profile, including half-life >10 hours, robust target engagement and well tolerated safety profile, supporting advancement for combination developmen",safety,POS,well tolerated
+69,69_0,"Phase 3 pivotal efficacy and safety study met the primary endpoint , noted January 9, 2024.","endpoint,safety,phase",POS,met
+70,70_0,"Phase 3 pivotal efficacy and safety study met the primary endpoint , noted January 9, 2024.","endpoint,safety,phase",POS,met
+71,71_0,"Phase 1 data reported that treatment was generally well tolerated, with no Grade 4 or 5 treatment-related adverse events (TRAEs) reported, noted January 10, 2025.","safety,phase",POS,well tolerated
+72,72_0,"Phase 2 32-week interim data reported that 3E10 vg/eye achieved an 86% reduction in injection burden vs. projected on-label aflibercept 2mg Q8W and dose response with 61% reduction vs. 1E10 vg/eye, wi",phase,POS,achieved
+74,74_0,"Phase 2b topline data on ATI-1777 2% QD showed a trend toward significance, ATI-1777 2% BID achieved a statistically significant result in the primary efficacy endpoint at week 4, noted January 10, 2",catalyst,POS,achieved
+80,80_0,"Additional Phase 3 data reported that at Week 4, a statistically significant greater percentage of patients achieved a 50% reduction in EASI scores (EASI-50), with 69.2% of patients treated with roflu",phase,POS,statistically significant
+105,105_0,"Phase 2 data reported that the trial met primary endpoint with clinically meaningful and statistically significant decreases in urticaria disease activity across multiple dose groups, noted January 18","endpoint,phase",POS,met
+110,110_1,Alvotech believes it is in position to receive approval on BsUFA,regulatory,POS,approval
+111,111_1,Alvotech believes it is in position to receive approval on BsUFA,regulatory,POS,approval
+112,112_1,Alvotech believes it is in position to receive approval on BsUFA,regulatory,POS,approval
+113,113_1,Alvotech believes it is in position to receive approval on BsUFA,regulatory,POS,approval
+120,120_1,"The study achieved durable elimination of ctDNA, a critical biomarker for cancer clearance and long-term d",catalyst,POS,achieved
+121,121_0,"Phase 3 topline data met the primary endpoint with a statistically significant reduction in the rate of HAE attacks in patients treated every 4 weeks or patients treated every 8 weeks, noted January 2","endpoint,phase",POS,met
+124,124_0,"Phase 3 trial did not meet its primary endpoint, noted January 22, 2024.","endpoint,phase",NEG,did not meet
+132,132_0,"Phase 1 data presented at the HEAL Initiative Scientific Meeting reported that the trial successfully met its overdose protection endpoints, noted January 25, 2024.",phase,POS,met
+135,135_0,"Phase 2 sub-study data reported statistically significant improvements in measures of cardiac structure and function including left ventricular mass index (-11.4 g/m2 Â±19.4, p=0.03), maximum left vent","pvalue,phase",POS,statistically significant
+151,151_0,"Preclinical data demonstrated PALI-2108 to be safe and well tolerated, noted January 29, 2024.",safety,POS,well tolerated
+154,154_0,Phase 1 study published at Journal of Parkinson's Disease showed that data demonstrated that Risvodetinib was well tolerated up to 7 days of daily dosing with no serious adverse events in healthy volu,"safety,phase",NEU,well tolerated
+155,155_0,"Pk trial met its primary endpoints, noted January 29, 2024.",endpoint,POS,met
+159,159_0,"Phase 3 data met the primary endpoint of non-inferiority to augmentin; and demonstrated statistical superiority, noted January 30, 2024.","endpoint,phase",POS,met
+160,160_0,"Phase 3 trial data reported a statistically significant improvement on the primary endpoint of the time-weighted sum of the pain intensity difference from 0 to 48 hours (SPID48) compared to placebo, n","endpoint,phase",POS,statistically significant
+161,161_0,"Phase 3 trial did not meet its primary endpoint, noted January 31, 2024.","endpoint,phase",NEG,did not meet
+170,170_0,"Phase 1 trial initial data presented at the Angiogenesis, Exudation, and Degeneration reported that monthly dosing of KSI-501 was safe and well-tolerated, noted February 3, 2024.","safety,phase",POS,well-tolerated
+173,173_0,"Phase 2a data reported that 320 mg group met its primary and secondary endpoints demonstrating that bexotegrast was well tolerated over a 12-week treatment period, noted February 5, 2024.","endpoint,safety,financial",POS,met
+174,174_0,Phase 1 data showed that it well-tolerated and delivered ustekinumab with high bioavailability.,"safety,phase",POS,well-tolerated
+177,177_0,"Company submitted the clinical hold complete response to the FDA for conducting a Phase 2 trial of its low-dose oral interferon (IFN)-alpha formulation, noted February 5, 2024.","phase,regulatory",NEG,clinical hold
+178,178_0,"Phase 3 study met all primary and key secondary endpoints in two randomized controlled trials in people with CF ages 12 years and older, noted February 5, 2024.","endpoint,phase,financial",POS,met
+180,180_0,Phase 1/2 clinical data reported a statistically significant improvements in disease severity were reported in the Fabry Outcome Survey adaptation of the Mainz Severity Score Index (FOS-MSSI) age-adju,phase,POS,statistically significant
+181,181_0,"Phase 2 trial met its primary endpoint, noted February 6, 2024.","endpoint,phase",POS,met
+183,183_0,"Phase 3 trial was not successful, noted February 6, 2024.",phase,POS,successful
+186,186_0,"Phase 1/2 data showed that agenT-797 holds significant promise in improving patient survival and reducing secondary infections, all while maintaining a favorable safety profile, noted February 6, 2024","safety,phase,financial",POS,favorable safety
+192,192_0,"Breakthrough Therapy Designation granted by the FDA, noted February 7, 2024",regulatory,POS,Breakthrough Therapy
+193,193_0,"Breakthrough Therapy Designation granted by the FDA, noted February 7, 2024",regulatory,POS,Breakthrough Therapy
+195,195_0,"Phase 3 topline data reported that trial met primary endpoint, noted February 7, 2024.","endpoint,phase",POS,met
+201,201_1,Safety results showed Ampligen is generally well tolerated in the treatment o,safety,POS,well tolerated
+205,205_0,"Phase 2b trial met its primary and secondary endpoints, noted February 9, 2024.","endpoint,financial",POS,met
+211,211_0,"Phase 2 study showed that treatment was generally well tolerated following repeated subcutaneous injections in patients in the 25 and 50 mg cohorts with no serious adverse events, noted February 12, 2","safety,phase",NEU,well tolerated
+212,212_0,"Fast Track designation granted by the FDA on February 12, 2024.",regulatory,POS,Fast Track
+217,217_0,"Type-D meeting with the FDA agreed in a that data from a single, adequate, and well-controlled study may form the primary basis of approval of a BLA for isaralgagene civaparvovec, noted February 12, 2",regulatory,POS,approval
+222,222_0,"The FDA cleared IND and granted fast-track designation on February 13, 2024.",regulatory,POS,fast-track
+223,223_0,"Phase 3 clinical trial met all primary and key secondary endpoints and demonstrated a favorable safety profile, noted February 13, 2024.","endpoint,safety,phase,financial",POS,met
+224,224_0,"Fast track designation granted by the FDA on February 13, 2024.",regulatory,POS,Fast track
+234,234_1,"No serious adverse events related to GLSI-100 have been reported to date, noted February 14 2024.",safety,NEG,serious adverse events
+240,240_0,"The preclinical study demonstrated successful drug delivery, noted February 14, 2024.",catalyst,POS,successful
+245,245_0,"Phase 3 study met the interim primary endpoint, noted February 15, 2024.","endpoint,phase",POS,met
+257,257_0,"Phase 3 data reported that the trial showed statistically significant and highly clinically meaningful improvement in progression-free survival (PFS), noted February 19, 2024.","endpoint,phase",POS,statistically significant
+258,258_1,"Phase 2a trial placed on clinical hold February 20, 2024.",regulatory,NEG,clinical hold
+260,260_0,"Fast Track Designation granted by the FDA on February 20, 2024.",regulatory,POS,Fast Track
+261,261_1,"FDA granted Fast Track designation, noted February 20, 2024.",regulatory,POS,Fast Track
+266,266_0,"Supplemental approval granted by the FDA, noted February 20, 2024.",regulatory,POS,approval
+268,268_0,"Phase 1 trial met its primary endpoint, noted February 21, 2024.","endpoint,phase",POS,met
+272,272_0,"Phase 2a data demonstrated a statistically significant benefit in killing ticks compared to placebo, noted February 22, 2024.",catalyst,POS,statistically significant
+276,276_0,"Phase 2 open-label extension data reported that both both doses of VTX002 achieved nominal statistical significance for all key secondary endpoints, noted February 22, 2024.","endpoint,phase,financial",POS,achieved
+277,277_0,"PDUFA Priority Review date June 27, 2024.",regulatory,POS,Priority Review
+280,280_0,"Phase 1/2a approval to commence dosing, noted February 23, 2024.","phase,regulatory",POS,approval
+286,286_0,"EAGLE-1 trial met its primary endpoint, noted February 26, 2024.",endpoint,POS,met
+287,287_0,"Phase 1 data reported that no severe or serious adverse events were observed in patients treated in Cohort 1, noted February 26, 2024.","safety,phase",NEG,serious adverse events
+288,288_0,"Preclinical data reported that treatment achieved comparable or superior efficacy and was shown to have a distinctive multi-modal mechanism of action versus empagliflozin, noted February 26, 2024.",catalyst,POS,achieved
+289,289_0,"Approval noted February 26, 2024.",regulatory,POS,Approval
+290,290_0,"Phase 1 presented at Tandem Meetings showed that all eight (100%) treatment-arm patients are relapse-free and have achieved and maintained complete donor chimerism following treatment, noted February",phase,POS,achieved
+292,292_0,"Phase 1 updated clinical data at KOL illustrated a potential best-in-class profile: promising efficacy with favorable safety profile in heavily pretreated subjects with late-stage mCRPC, noted Februar","safety,phase",POS,favorable safety
+295,295_0,"CRL issued by the FDA, noted February 27, 2024.",regulatory,NEG,CRL
+296,296_0,"Phase 2 study met primary and all secondary endpoints, demonstrating reductions in body weight, noted February 27, 2024.","endpoint,phase,financial",POS,met
+297,297_0,Phase 2a topline data reported statistically significant improvements (p<0.05) in inflammatory lesions and Investigator's Global Assessment (IGA) score compared to vehicle at Week 12 TP-04 was genera,pvalue,POS,statistically significant
+300,300_0,"Phase 2 was well tolerated with anti-tumor activity at relevant higher dose levels observed with 29% Objective Response Rate (ORR) and 71% Disease Control Rate (DCR), noted February 27, 2024.","endpoint,safety,phase",POS,well tolerated
+302,302_0,"Phase 3 final results reported met the first co-primary endpoint in the Intent-to-Treat Analysis, however did not meet the co-primary endpoint showing superiority over vehicle, noted February 28, 2024.Â read less","endpoint,phase",NEU,met
+303,303_0,"Phase 2 topline data reported that the trial met its primary endpoint, noted February 28, 2024.","endpoint,phase",POS,met
+306,306_0,"Phase 2 topline FL results reported that the trial met its primary endpoint, noted February 28, 2024.","endpoint,phase",POS,met
+314,314_0,"Phase 3 top-line data reported that the trial met its primary endpoint, however two key secondary endpoints were specific to colon-in-continuity patients in assessing at least one day/week off PS versus baseline and reaching enteral autonomy at week 48, both of which were not achieved, noted February 29, 2024.Â read less","endpoint,phase,financial",POS,met
+324,324_0,Additional Phase 3 data reported that due to the exclusion of data from so many sites the trial missed statistical significance but showed promising directional data on cognitive and functional measures.,phase,NEG,missed
+326,326_3,This is the first time that a relapsed/refractory (r/r) AML patient achieved a CR with CDK9 inhibition monotherapy.,endpoint,POS,achieved
+326,326_5,"All key study objectives were met regarding pharmacokinetic (PK), pharmacodynamic (PD), safety, and clinical activity, noted March 1, 2024.Â read less",safety,POS,met
+332,332_0,"Phase 1 data reported the complete remission was achieved in 64% of patients, with an ORR of 73%, noted March 4, 2024.","endpoint,phase",POS,achieved
+345,345_1,"The trial achieved its primary endpoint by demonstrating a statistically significant and superior reduction in kidney disease progression, major adverse cardiovascular events (MACE) and death of 24% for people treated with semaglutide 1.0 mg compared to placebo, noted March 5, 2024.Â read less",endpoint,POS,achieved
+348,348_0,"Phase 2 trial met the primary endpoint, noted March 5, 2024.","endpoint,phase",POS,met
+357,357_0,"Phase 1 pilot study experienced a marked decrease in the burden of infection, and the procedures were found to be safe and well tolerated, noted March 5, 2024.","safety,phase",POS,well tolerated
+362,362_0,"CRL issued by FDA on March 6, 2024.",regulatory,NEG,CRL
+370,370_0,"Phase 2 third-line ombination THIO 180mg + cemiplimab achieved 38% overall response rate (ORR) in difficult-to-treat, noted March 6, 2024","endpoint,phase",POS,achieved
+371,371_0,"Phase 2 third-line ombination THIO 180mg + cemiplimab achieved 38% overall response rate (ORR) in difficult-to-treat, noted March 6, 2024","endpoint,phase",POS,achieved
+376,376_0,"Phase 3 data reported that 97% percent (71/73) of participants treated with Biktarvy achieved viral suppression (HIV-1 RNA < 50 copies /ml) as did 97% (36/37) of participants treated with the DTG-based regimen, noted March 6, 2024.Â read less",phase,POS,achieved
+379,379_0,"Phase 2b data 12-week data reported that the trial met its key secondary endpoint and maintained a clinically and statistically significant HAM-A reductions compared to placebo at 12 weeks with a 65% clinical response rate and 48% clinical remission rate, noted March 7, 2024.Â read less","endpoint,financial",POS,met
+380,380_0,"Phase 1 data reported well-tolerated and 50% of patients achieved stable disease or better with two partial responses and two complete responses lasting 7.5 and 66+ months, noted March 7, 2024.","safety,phase",POS,achieved
+381,381_0,"Phase 1 data reported well-tolerated and 50% of patients achieved stable disease or better with two partial responses and two complete responses lasting 7.5 and 66+ months, noted March 7, 2024.","safety,phase",POS,achieved
+382,382_0,"Phase 3 trial met its primary endpoint, noted March 7, 2024","endpoint,phase",POS,met
+387,387_0,"Phase 3 topline results did not meet the primary endpoint, noted March 8, 2024.","endpoint,phase",NEG,did not meet
+394,394_0,"Phase 2b 24-week data reported that 52% of patients achieved ACR50+PASI100 and up to 61% of patients achieved Minimal Disease Activity (MDA), noted March 10, 2024.",catalyst,POS,achieved
+397,397_0,"Phase 3 results data presented at AAD reported that 56.3% of patients who received Otezla through week 52 achieved static Physician Global Assessment (sPGA) response, noted March 11, 2024.",phase,POS,achieved
+398,398_0,"Phase 2 additional data reported that more than three quarters (79.2%) of on-treatment patients achieved at least a 50% reduction in AN count (AN50), 54.2% achieved a 75% reduction (AN75), 20.8% achieved 90% reduction (AN90), and 20.8% achieved complete clearance (100% reduction, AN100), surpassing the 56.3%, 25.0%, 12.5% and 12.5% reductions, respectively, in the vehicle control group, noted March 11, 2024.Â read less",phase,POS,achieved
+399,399_0,"Phase 2 data reported that the trial met its primary endpoint, noted March 11, 2024.","endpoint,phase",POS,met
+400,400_0,"Phase 1a/1b clinical hold lifted by the FDA, noted March 11, 2024.",regulatory,NEG,clinical hold
+404,404_0,Phase 1 clinical update presented at virtual investor event showed that treatment was well-tolerated with no dose-limiting toxicities identified.,"safety,phase",POS,well-tolerated
+414,414_0,"CRL announced March 11, 2024.",regulatory,NEG,CRL
+415,415_0,"Phase 3 study did not meet its primary endpoint, noted March 11, 2024.","endpoint,phase",NEG,did not meet
+420,420_0,"Phase 3 data reported a statistically significant and clinically meaningful improvement in overall survival (OS) compared to lenalidomide and rituximab plus placebo, noted March 12, 2024.","endpoint,phase",POS,statistically significant
+423,423_0,"Phase 2 study met its primary endpoint, noted March 13, 2024.","endpoint,phase",POS,met
+425,425_0,"Preclinical data reported robust penetration of the BBB and widespread transgene expression throughout the brain, and the treatment was well tolerated in NHPs, with no notable treatment related pathological findings in brain, spinal cord or peripheral tissues, noted March 13, 2024.Â read less",safety,POS,well tolerated
+426,426_0,"Preclinical data reported robust penetration of the BBB and widespread transgene expression throughout the brain, and the treatment was well tolerated in NHPs, with no notable treatment related pathological findings in brain, spinal cord or peripheral tissues, noted March 13, 2024.Â read less",safety,POS,well tolerated
+427,427_0,"Phase 2 topline data reported that treatment was safe and well tolerated, with all mezagitamab doses tested demonstrated a higher platelet response rate than placebo, noted March 13, 2024.","safety,phase",POS,well tolerated
+428,428_0,"Phase 2 topline data reported that treatment was safe and well tolerated, with all mezagitamab doses tested demonstrated a higher platelet response rate than placebo, noted March 13, 2024.","safety,phase",POS,well tolerated
+430,430_0,"Phase 2b top-line data reported that trial did not meet its primary endpoint, noted March 13, 2024.",endpoint,NEG,did not meet
+431,431_0,"Phase 2 top-line data reported that 73% of all patients (22 of 30 patients) met the efficacy endpoint of A4 or GC reduction from baseline at 12 weeks with no treatment-related SAEs reported, noted March 13, 2024.Â read less","safety,sample,phase",POS,met
+432,432_0,"Approval announced March 13, 2024.",regulatory,POS,Approval
+435,435_0,"Phase 2 achieved statistically significant liver histologic improvement as measured by at least a 2-point reduction in NAFLD Activity Score (NAS), noted March 13, 2024.",phase,POS,achieved
+445,445_0,"Phase 3 trial met all primary and secondary pharmacokinetic endpoints, noted March 15, 2024.","phase,financial",POS,met
+446,446_0,"Additional Phase 1/2 data reported that all six patients with Fanconi Anemia treated with briquilimab achieved full donor engraftment and full blood count recovery and briquilimab was well tolerated, noted March 15, 2024.Â read less","safety,phase",POS,achieved
+454,454_0,"Phase 2a achieved its primary efficacy endpoint by significantly lowering HbA1c level in both the lanifibranor arm and in the lanifibranor with empagliflozin arm compared to placebo, noted March 18, 2",catalyst,POS,achieved
+459,459_0,"Phase 3 topline data reported that the trial met its primary endpoint, noted March 19, 2024.","endpoint,phase",POS,met
+462,462_0,"Phase 3 trial met the primary efficacy endpoint demonstrating non-inferiority of the incidence of acute kidney injury, noted March 19, 2024.",phase,POS,met
+469,469_0,Phase 1/2 clinical data from cohort one (low dose) showed that dosing was well-tolerated with no treatment-emergent SAEs as of 35-week assessment.,"safety,phase",POS,well-tolerated
+471,471_0,"Phase 3 trial met primary endpoint, noted March 20, 2024.","endpoint,phase",POS,met
+472,472_0,"PK data reported that the trial objective were met, with oral GLP-2 tablets exhibiting significant systemic exposure, noted March 20, 2024.",catalyst,POS,met
+473,473_0,"PK data reported that the trial objective were met, with oral GLP-2 tablets exhibiting significant systemic exposure, noted March 20, 2024.",catalyst,POS,met
+474,474_0,"Phase 2 data reported that eight out of eight patients have successfully transitioned from oral Tacrolimus to TFF TAC, with favorable safety results with no mortality or discontinuations due to advers","safety,phase",POS,favorable safety
+475,475_0,"Phase 3 data reported that the trial did not meet its dual primary endpoints of overall survival (OS) and progression-free survival (PFS), noted March 21, 2024.","endpoint,phase",NEG,did not meet
+481,481_0,"Phase 2 additional efficacy data showed a statistically significant and durable reduction in ocular pain statistically significant improvement in Tear Film Break-Up Time (TFBUT) throughout the study,",phase,POS,statistically significant
+484,484_0,"Full approval announced March 22, 2024.",regulatory,POS,approval
+485,485_0,"EUA approval announced March 22, 2024.",regulatory,POS,approval
+491,491_0,"Phase 3 trial met its primary endpoint, noted March 25, 2024.","endpoint,phase",POS,met
+494,494_0,"Phase 1b/2 proof of concept data reported favorable safety and tolerability profile, mean monthly attack rate reduction of 90-96% for up to 6 months of follow up, noted March 25, 2024.","effect,safety",POS,favorable safety
+497,497_0,CRL issued by FDA on March 25 2024.,regulatory,NEG,CRL
+498,498_0,CRL issued by FDA on March 25 2024.,regulatory,NEG,CRL
+507,507_0,"ANDA Approval from the FDA, noted March 25, 2024.",regulatory,POS,Approval
+508,508_0,"CRL issued March 25, 2024.",regulatory,NEG,CRL
+509,509_0,"CRL issued March 25, 2024.",regulatory,NEG,CRL
+510,510_0,"Phase 2 data reported a 100% complete response rate in the 45 mg cohort, and in the 15 mg cohort, 80% of patients achieved a complete response and 20% achieved a partial response, noted March 26, 2024",phase,POS,achieved
+512,512_0,Phase 1 data was shown to be safe and well-tolerated in the 28-day study with low rates of GI-related adverse events.,"safety,phase",POS,well-tolerated
+513,513_0,"FDA has granted approval of 12-month shelf life for INTERCEPT Platelet Processing Sets, from the date of manufacture, effective immediately, noted March 26, 2024.",regulatory,POS,approval
+522,522_0,"Phase 3 final data clinical trial met its primary endpoint, demonstrating a statistically significant improvement in time to intracranial progression for adult patients treated with Tumor Treating Fie","endpoint,phase",POS,met
+523,523_0,"Phase 3 final data clinical trial met its primary endpoint, demonstrating a statistically significant improvement in time to intracranial progression for adult patients treated with Tumor Treating Fie","endpoint,phase",POS,met
+524,524_0,"Phase 2a initial results demonstrated that a single 10mg dose of BPL-003 was well-tolerated and resulted in a rapid onset and durable antidepressant effect in patients living with TRD, noted March 27,",safety,POS,well-tolerated
+528,528_0,"Phase 2 data continue to demonstrate antifungal activity and a favorable safety and tolerability profile, noted March 27, 2024.","safety,phase",POS,favorable safety
+536,536_0,"Phase 2 initial data reported that treatment was well-tolerated with an acceptable safety profile, noted March 28, 2024.","safety,phase",POS,well-tolerated
+541,541_0,"Phase 1b preliminary data reported that VRON-0200 was safe and well tolerated, with no clinical or laboratory changes of concern, noted March 28, 2024.",safety,POS,well tolerated
+547,547_0,"Phase 1b showed that serial procedures were well tolerated without observed dose-limiting toxicity in first cohort, noted March 28, 2024.",safety,POS,well tolerated
+548,548_0,"Phase 3 trial met its primary endpoints, noted March 28, 2024.","endpoint,phase",POS,met
+550,550_1,"More than 80% of subjects achieved >50% reduction in urine protein creatinine ratio (UPCR), noted",catalyst,POS,achieved
+552,552_0,"A District Court set aside the injunction and the FDA is no longer enjoined from issuing final approval of Liquidia's New Drug Application (NDA) for YUTREPIA (treprostinil) inhalation powder, noted Ap",regulatory,POS,approval
+556,556_0,Phase 2 study met its primary endpoint.,"endpoint,phase",POS,met
+556,556_1,"Despite improved measures of light tolerance, including the key secondary endpoint, in both 20 mg and 60 mg dose groups, but it did not meet statistical signifi","endpoint,financial",NEG,did not meet
+558,558_0,"Phase 1a demonstrated acceptable safety and tolerability with no reported serious adverse events, noted April 1, 2024.",safety,NEG,serious adverse events
+564,564_0,"Phase 1a demonstrated acceptable safety and tolerability with no reported serious adverse events, noted April 1, 2024.",safety,NEG,serious adverse events
+571,571_0,"Phase 2 cohort 4 data reported a a statistically significant reduction of approximately 40% in Rheumatoid Factor in the abiprubart group, noted April 2, 2024.",phase,POS,statistically significant
+576,576_0,Phase 3 primary endpoint was met with 71% of participants dosed with LNZ100 achieving three-lines or greater improvement at 3 hours.,"endpoint,phase",POS,met
+581,581_0,"Phase 1/2 has been well tolerated in participants at the doses administered, with no dose-limiting toxicities observed.","safety,phase",POS,well tolerated
+589,589_0,Phase 2b study did not meet the pre-specified threshold of pâ‰¤0.2.,catalyst,NEG,did not meet
+596,596_0,"Phase 3 trial met the the dual primary endpoints of overall survival (OS) and progression-free survival (PFS), noted April 5, 2024.","endpoint,phase",POS,met
+605,605_0,"FDA Approval on April 5, 2024.",regulatory,POS,Approval
+606,606_0,"FDA Approval on April 5, 2024.",regulatory,POS,Approval
+614,614_0,"Phase 3 trial met her primary endpoint, noted April 7, 2024.","endpoint,phase",POS,met
+615,615_0,"Phase 1/2 trial has met primary endpoints of safety and immunogenicity and secondary endpoint for efficacy based on response rate, noted April 7, 2024.","endpoint,safety,phase,financial",POS,met
+635,635_0,Phase 3 results presented at the ASCRS Conference 2024 included co-Primary symptom endpoint of pain met statistical significance and 7 of 11 secondary symptom endpoints met statistical significance (p,"phase,financial",POS,met
+636,636_0,"CRL announced April 8, 2024.",regulatory,NEG,CRL
+646,646_0,"Phase 1 data reported that the initial dose level was well tolerated and demonstrated durable objective responses after MT-601 treatment, noted April 8, 2024.","safety,phase",POS,well tolerated
+663,663_0,"Preclinical data shared at AACR shows robust anti-tumor activity in vivo as monotherapy and in combination with chemotherapy, at well-tolerated doses, noted April 9, 2024.",safety,POS,well-tolerated
+668,668_0,"Phase 1 results demonstrated that for the first five patients (three of whom were PDAC patients), QN-302 is overall well-tolerated (no SAE) and they have reported a ""good"" quality of life during the d","safety,phase",POS,well-tolerated
+676,676_0,"Phase 3 trial met its primary endpoint, noted April 9, 2024.","endpoint,phase",POS,met
+681,681_0,Phase 1/2a trial shared at AACR reported that two of 12 patients achieved stable disease (SD): one patient from Dose level 1 (50 mg) who progressed on Day 112 and one patient from Dose level 3 (200 mg,"sample,phase",POS,achieved
+686,686_0,Phase 1 demonstrated clinically meaningful and statistically significant improvements from baseline in mean sleep latency compared to placebo at all doses tested in both narcolepsy type 2 and idiopath,phase,POS,statistically significant
+691,691_0,"Phase 1 trial preliminary results presented at AACR reported that BNT116 + DTX shows encouraging antitumor activity, consistent induction of immune responses, a manageable safety profile, and no signs","safety,phase",POS,manageable safety
+692,692_0,"Phase 1 trial preliminary results presented at AACR reported that BNT116 + DTX shows encouraging antitumor activity, consistent induction of immune responses, a manageable safety profile, and no signs","safety,phase",POS,manageable safety
+696,696_0,"Phase 1b/2a 240mg data presented at the World Congress of Nephrology showed that treatment continues to be well tolerated in IgA nephropathy, with UPCR reductions of greater than 60% observed at 36 we",safety,POS,well tolerated
+697,697_0,"Phase 1b/2a 240mg data presented at the World Congress of Nephrology showed that treatment continues to be well tolerated in IgA nephropathy, with UPCR reductions of greater than 60% observed at 36 we",safety,POS,well tolerated
+699,699_0,Phase 2 treatment resulted in statistically significant body composition improvement in men Increased lean mass (LM) by 4.4% and decreased fat mass (FM) by 6.7%.,phase,POS,statistically significant
+700,700_0,"Fast track designation granted by the FDA, noted April 11, 2024.",regulatory,POS,Fast track
+707,707_0,Phase 3 did not meet pre-defined stopping criteria at the interim analysis; Marinus has completed RAISE enrollment at approximately 100 patients with topline results expected summer 2024.,"sample,phase",NEG,did not meet
+708,708_0,Phase 3 did not meet pre-defined stopping criteria at the interim analysis; Marinus has completed RAISE enrollment at approximately 100 patients with topline results expected summer 2024.,"sample,phase",NEG,did not meet
+715,715_0,"Phase 3 data show clinically meaningful and statistically significant proteinuria reduction of 38.3% versus placebo, noted April 15, 2024.","effect,phase",POS,statistically significant
+716,716_0,"Phase 3 data presented at AAN reported that 67% of patients treated with VYVGART Hytrulo demonstrated evidence of clinical improvement (ECI), including 40% who had achieved ECI by the earliest possibl",phase,POS,achieved
+717,717_0,"Phase 3 data presented at AAN reported that 67% of patients treated with VYVGART Hytrulo demonstrated evidence of clinical improvement (ECI), including 40% who had achieved ECI by the earliest possibl",phase,POS,achieved
+718,718_0,"Phase 3 data presented at AAN reported that 67% of patients treated with VYVGART Hytrulo demonstrated evidence of clinical improvement (ECI), including 40% who had achieved ECI by the earliest possibl",phase,POS,achieved
+719,719_0,"Phase 3 topline results for the 42 mg Cohort achieved statistically significant and clinically meaningful results in both the primary and the key secondary endpoints, noted April 16, 2024.","endpoint,phase,financial",POS,achieved
+724,724_0,"Phase 1 additional data presented at AAN demonstrated a favorable safety and tolerability profile in participants with early AD with a relatively low incidence of ARIA-E, noted April 16, 2024.","safety,phase",POS,favorable safety
+725,725_0,"Preclinical approval has been received from an independent third-party ethics review board, for human pilot study #2, noted April 16, 2024.",regulatory,POS,approval
+730,730_0,"Phase 2 data did not show statistically significant differences versus placebo on the primary endpoint , noted April 17, 2024.","endpoint,phase",POS,statistically significant
+731,731_0,"Phase 2 data did not show statistically significant differences versus placebo on the primary endpoint , noted April 17, 2024.","endpoint,phase",POS,statistically significant
+743,743_0,"Phase 3 trial met its primary endpoint, noted April 18, 2024.","endpoint,phase",POS,met
+750,750_0,"Phase 3 showed that upadacitinib (RINVOQ; 15 mg, once daily) in combination with a 26-week steroid taper regimen achieved its primary endpoint of sustained remissiona from week 12 through week 52, not","endpoint,phase",POS,achieved
+751,751_0,Phase 2b data presented at AAN reported that PrimeC met safety and tolerability measures as well as statistically significant slowing of disease progression as demonstrated by the ALSFRS-R by 37% (p=0,"pvalue,safety",POS,met
+752,752_0,"Phase 1 data presented at AAOM resulted in no treatment-related serious adverse events or dose-limiting toxicities were reported, and all participants completed the study, noted April 18, 2024.","safety,phase",NEG,serious adverse events
+753,753_0,"Additional Phase 1/2a met its primary endpoint, noted April 18, 2024.","endpoint,phase",POS,met
+754,754_0,"Additional Phase 1/2a met its primary endpoint, noted April 18, 2024.","endpoint,phase",POS,met
+761,761_0,"Phase 3 additional results exhibited clinically meaningful and statistically significant improvements in hypertension, hyperglycemia and other key secondary and exploratory endpoints, noted April 22,","phase,financial",POS,statistically significant
+763,763_0,"CRL issued by the FDA, noted April 22, 2024.",regulatory,NEG,CRL
+771,771_0,"Phase 2 study met its primary and key secondary endpoints, demonstrating that once-daily, oral administration of NBI-1065845 produced a statistically significant change from baseline in Montgomery Ã...sb","endpoint,phase,financial",POS,met
+772,772_0,"Phase 2 study met its primary and key secondary endpoints, demonstrating that once-daily, oral administration of NBI-1065845 produced a statistically significant change from baseline in Montgomery Ã...sb","endpoint,phase,financial",POS,met
+779,779_0,"Phase 3 trial met its primary endpoint, with results demonstrating therapeutic equivalence between AVT05 and Simponi.","endpoint,phase",POS,met
+787,787_0,"Phase 1 data reported that treatment was generally well tolerated up to and including the highest planned dose level, and there were no serious adverse events, noted April 24, 2024.","safety,phase",NEU,well tolerated
+790,790_0,"Phase 2a data reported that treatment demonstrated a statistically significant improvement in reaction time compared to placebo and caffeine in sleep-deprived study participants, noted April 25, 2024.",catalyst,POS,statistically significant
+791,791_0,"Trial met both primary endpoints, noted April 25, 2024.",endpoint,POS,met
+795,795_0,"Phase 1 data presented at ECCMID showed that single (up to 2000 mg) and multiple (up to 800 mg Q12 for 7 days) doses of this potent, pan-coronavirus protease inhibitor were well tolerated in healthy v","safety,phase",POS,well tolerated
+797,797_0,"Approval announced April 26, 2024.",regulatory,POS,Approval
+799,799_0,Phase 2a data presented at ESCMID reported that well tolerated and demonstrated statistically significant antiviral effects when administered as a single subcutaneous dose in healthy volunteers challe,safety,POS,statistically significant
+800,800_0,Phase 2a data presented at ESCMID reported that well tolerated and demonstrated statistically significant antiviral effects when administered as a single subcutaneous dose in healthy volunteers challe,safety,POS,statistically significant
+801,801_0,"Phase 2 data presented at ESCMID reported that the EDP-235 400 mg arm achieved greater mean change in TSS compared with the placebo arm at all time points, noted April 27, 2024.",phase,POS,achieved
+802,802_0,"Phase 3 data reported statistically significant and clinically meaningful improvement in progression-free survival (PFS) compared to standard-of-care chemotherapy, noted April 29, 2024","endpoint,phase",POS,statistically significant
+806,806_0,"Phase 2 trial did not meet its primary endpoint, noted April 29, 2024.","endpoint,phase",NEG,did not meet
+807,807_0,"Phase 2 trial did not meet its primary endpoint, noted April 29, 2024.","endpoint,phase",NEG,did not meet
+811,811_0,"Phase 1b/2 first dose level is generally well tolerated, noted April 29, 2024.",safety,POS,well tolerated
+812,812_0,"Phase 1b/2 first dose level is generally well tolerated, noted April 29, 2024.",safety,POS,well tolerated
+822,822_0,"Phase 2 study met its primary and key secondary endpoints, noted April 2024.","endpoint,phase,financial",POS,met
+823,823_0,"Phase 2 study met its primary and key secondary endpoints, noted April 2024.","endpoint,phase,financial",POS,met
+825,825_0,"MTD data reported that all doses were well-tolerated, noted April 30, 2024.",safety,POS,well-tolerated
+827,827_0,"Phase 2/3 top line data reported that NRX-101 vs lurasidone demonstrated a promising, though not yet statistically significant 33% reduction in suicidality together with a 70% reduction (P=.076) reduc","pvalue,phase",POS,statistically significant
+828,828_0,"Phase 1 topline data reported no vaccine-related serious adverse events (SAEs) and no dose-limiting pharmacotoxicity, noted April 30, 2024.","safety,phase",NEG,serious adverse events
+829,829_0,"Phase 1b compassionate use data reported that treatment has been well-tolerated throughout the treatment period, with stable cognitive function observed in the patients.",safety,POS,well-tolerated
+833,833_0,"Phase 3 trial met its dual primary endpoint of overall survival (OS), noted May 1, 2024.","endpoint,phase",POS,met
+834,834_0,"Preclinical successful completion of its analysis to determine the effects of bioactivated PALI-2108 on TNF-Î± production in a whole blood (WB) assay, noted May 1, 2024.",catalyst,POS,successful
+835,835_0,"Phase 2 30 mg cohort showed a 100% overall response rate in patients with ASXL1 mutation, treatment exhibited strong anti-leukemic activity in 62% of patients with a favorable safety profile across al","safety,phase",POS,favorable safety
+839,839_0,"Phase 1 trial successful and complete, noted May 1, 2024.",phase,POS,successful
+841,841_0,"Phase 3 data reported a statistically significant and clinically meaningful improvement in progression-free survival (PFS) versus standard of care, noted May 2, 2024.","endpoint,phase",POS,statistically significant
+845,845_0,"Preclinical data reported statistically significant increase in anti-myostatin IgG antibody concentration, where myostatin is a key negative regulator of muscle growth, noted May 2, 2024.",catalyst,POS,statistically significant
+846,846_0,Phase 2 trial is well tolerated and has led to encouraging initial efficacy data.,"safety,phase",POS,well tolerated
+847,847_0,"Phase 2 trial did not meet its primary endpoint, noted May 3, 2024.","endpoint,phase",NEG,did not meet
+848,848_0,Phase 2 data from TPRREY trail published at the Lancet Respiratory Medicine journal confirmed results demonstrating a statistically significant improvement for seralutinib compared to placebo in the p,phase,POS,statistically significant
+849,849_0,Phase 2 data from TPRREY trail published at the Lancet Respiratory Medicine journal confirmed results demonstrating a statistically significant improvement for seralutinib compared to placebo in the p,phase,POS,statistically significant
+851,851_1,"Also, patients achieved similar probabilities of DFS r",catalyst,POS,achieved
+852,852_0,"Phase 2 data at APA reported clinically and statistically significant efficacy compared to placebo at its primary week 4 and secondary week 12 timepoints, noted May 4, 2024.","phase,financial",POS,statistically significant
+856,856_0,"Phase 2 trial did not meet the pre-specified primary endpoint, noted May 6, 2024.","endpoint,phase",NEG,did not meet
+858,858_0,"Phase 2 data reported that treatment was generally well-tolerated and safety was consistent with the known profile, with two patient discontinuations, with both of these patients remain in CR at 10 an","endpoint,safety,phase",POS,well-tolerated
+860,860_0,Phase 3 data reported that the trial did not meet its primary endpoint of demonstrating statistically significant improvement compared to sham control in the composite score of the three cardinal symp,"endpoint,phase",NEU,statistically significant
+862,862_0,"Preclinical data reported that a statistically significant (FDR adjusted p-value < 0.05) decline in secondary tumor growth rate was found at days 21, 25 and 29 in those mice that received Alpha DaRT",financial,POS,statistically significant
+863,863_0,"Phase 2 final data reported statistically significant improvements in key secondary endpoints, such as progression-free survival, (PFS median 5 months versus 2.9 months; Hazard ratio= 0.58) and statis","endpoint,phase,financial",POS,statistically significant
+868,868_0,"Phase 3 data showcased previously disclosed data that demonstrated that setmelanotide achieved 3.04 mean reduction in BMI-Z score and 18.4 percent mean reduction in BMI in 12 patients, noted May 6, 20","sample,phase",POS,achieved
+869,869_0,"BLA accepted for priority review by the FDA, noted May 6, 2024.",regulatory,POS,BLA accepted
+870,870_0,"BLA accepted for priority review by the FDA, noted May 6, 2024.",regulatory,POS,BLA accepted
+871,871_0,"Fast track designation granted by the FDA, noted May 7, 2024.",regulatory,POS,Fast track
+873,873_0,"Phase 2 trial did not meet the primary endpoint, noted May 7, 2024.","endpoint,phase",NEG,did not meet
+876,876_0,"Additional Phase 2b data analysis reported a statistically significant slowing of disease progression in high-risk ALS patients treated with PrimeC by 43% (p=0.02), noted May 7, 2024.",pvalue,POS,statistically significant
+880,880_0,"Phase 1 trial met its primary and secondary objectives, noted May 8, 2024.","phase,financial",POS,met
+881,881_0,"Phase 3 trial data reported that the trial met its primary endpoint as measured by a change in the PANSS total score from baseline after 8 weeks compared to placebo, noted May 8, 2024.","endpoint,phase",POS,met
+888,888_0,"Phase 1 data demonstrated a favorable safety profile with no cytokine release syndrome (CRS) of any grade observed in step-dosing cohorts and no grade >1 CRS observed overall, noted May 8, 2024.","safety,phase",POS,favorable safety
+890,890_0,"Phase 3 study did not meet the study's pre-specified statistical criteria for DFS compared to placebo plus adjuvant chemotherapy, with or without radiotherapy, noted May 9, 2024.",phase,NEG,did not meet
+898,898_0,"Trial closed due to clinical hold, noted May 9, 2024.",regulatory,NEG,clinical hold
+899,899_0,"Trial closed due to clinical hold, noted May 9, 2024.",regulatory,NEG,clinical hold
+904,904_0,Preclinical data presented at ARVO showed that intravitreal administration of 4D-175 to non-human primates (NHP) was safe and well tolerated and resulted in robust transgene expression in the retina a,safety,POS,well tolerated
+907,907_0,"Phase 2 topline results reported that serious adverse events occurred in 20.7% of TPIP-treated patients and 40.0% of placebo-treated patients, noted May 9, 2024.","safety,phase",NEG,serious adverse events
+908,908_0,Phase 2 data reported that sevasemten was well tolerated across all 21 participants and significantly reduced biomarkers of muscle damage associated with exercise with a mean post-exercise reduction o,"safety,sample,phase",POS,well tolerated
+912,912_0,"Phase 1 data reported robust and sustained efficacy in adults and the first pediatric patient infusion of RP-L301 was well tolerated, with engraftment achieved at day +15, noted May 19, 2023.","safety,phase",POS,achieved
+917,917_0,"Phase 3 CheckMate -73L trial did not meet its primary endpoint of progression-free survival (PFS), noted May 10, 2024.","endpoint,phase",NEG,did not meet
+919,919_0,Phase 3 pre-planned analysis data showed that the primary endpoint of recurrence-free survival (RFS) met the pre-specified futility criteria.,"endpoint,phase",POS,met
+921,921_0,"FDA Granted Breakthrough Therapy Designation (BTD) on May 13, 2024.",regulatory,POS,Breakthrough Therapy
+922,922_0,"FDA Granted Breakthrough Therapy Designation (BTD) on May 13, 2024.",regulatory,POS,Breakthrough Therapy
+925,925_0,"Phase 2 trial met primary endpoint, noted May 13, 2024.","endpoint,phase",POS,met
+930,930_0,"CRL announced May 14, 2024.",regulatory,NEG,CRL
+931,931_0,"Preclinical antiviral activity study resulted in full survival of lethally infected animals was achieved, noted May 14, 2024.",catalyst,POS,achieved
+936,936_0,"Phase 2 data reported that 3 of 3 patients who were naÃ¯ve to FLT3i treatment achieved objective response (2 CR, 1 MLFS), noted May 14, 2024.","endpoint,phase",POS,achieved
+940,940_0,"Phase 1 data reported that denifanstat was well-tolerated and no safety signals were reported, noted May 15, 2024.","safety,phase",POS,well-tolerated
+942,942_0,Phase 1b/2 data to be shared at ESMO Breast Cancer showed that treatment was well tolerated with no new safety signals or increased toxicity and no clinically meaningful impact on drug exposure of eit,safety,POS,well tolerated
+948,948_0,"Phase 3 data reported that trials met their primary endpoints, noted May 16, 2024.","endpoint,phase",POS,met
+951,951_0,"Phase 3 data reported that the trial met both dual primary endpoints, noted May 16, 2024.","endpoint,phase",POS,met
+959,959_0,"Phase 1b data reported that treatment was well tolerated at the maximum administered dose and treatment with mPH-762 provided robust inhibition of tumor growth, noted May 16, 2024.",safety,POS,well tolerated
+976,976_0,"Phase 3 data reported that 70% of patients achieved the composite response endpoint and 25% experienced ALP normalization, noted May 20, 2024.",phase,POS,achieved
+981,981_0,"Phase 2 clinical hold removed, noted May 20, 2024.","phase,regulatory",NEG,clinical hold
+983,983_0,"Phase 1/2 additional results demonstrate that two 5 Î¼g doses of ARCT-154, sa-mRNA vaccine, were well-tolerated, immunogenic and provided significant protection against multiple strains of COVID-19, no","safety,phase",POS,well-tolerated
+986,986_0,"Phase 3 data reported that both trials met its primary endpoints, noted May 21, 2024.","endpoint,phase",POS,met
+987,987_0,"Phase 3 topline data study met its primary endpoint with a statistically significant improvement in the time to failure event, noted May 21, 2024.","endpoint,phase",POS,met
+992,992_0,"Phase 2 results presented at DDW showed an 83% non-progression rate at 6 months and a statistically significant decrease in overall mean polyp burden at 6 months, noted May 21, 2024.",phase,POS,statistically significant
+993,993_0,"Breakthrough Therapy designation (BTD) granted by the FDA, noted May 21, 2024.",regulatory,POS,Breakthrough Therapy
+994,994_0,"Phase 3 data showed that nearly one-half of patients on mirikizumab achieved endoscopic response at 52 weeks; most of these patients were also in clinical remission, noted May 21, 2024.",phase,POS,achieved
+995,995_0,"Phase 2 study met its primary endpoint, noted May 21, 2024.","endpoint,phase",POS,met
+996,996_0,"Phase 2 study met its primary endpoint, noted May 21, 2024.","endpoint,phase",POS,met
+1008,1008_0,"Phase 2a key findings noting that VTP-300 in combination with nivolumab has been generally well tolerated, with no observed treatment-related serious adverse events, and contributed to declines in hep",safety,NEU,well tolerated
+1009,1009_0,"Phase 2a key findings noting that VTP-300 in combination with nivolumab has been generally well tolerated, with no observed treatment-related serious adverse events, and contributed to declines in hep",safety,NEU,well tolerated
+1010,1010_0,"Phase 2a key findings noting that VTP-300 in combination with nivolumab has been generally well tolerated, with no observed treatment-related serious adverse events, and contributed to declines in hep",safety,NEU,well tolerated
+1017,1017_0,"Phase 1 data published at in video format showed that the study met its primary efficacy endpoint, showing a statistically significant reduction in the mean daily reflective Total Nasal Symptom Score",phase,POS,met
+1028,1028_0,"Phase 1/2 study as of May 14, 2024, patients receiving the combination of avutometinib and defactinib with gemcitabine and Nab-paclitaxel in dose level 1 cohort achieved a confirmed overall response r",phase,POS,achieved
+1035,1035_0,"Phase 1/1b data from ASCO abstract reported that treatment was well tolerated and clinically active in patients with checkpoint inhibitor therapy relapsed/refractory cancers, noted May 23, 2024.","safety,phase",POS,well tolerated
+1049,1049_0,"Phase 2 ASCO abstract showed that treatment administered as a monotherapy was well tolerated and able to generate a ~100x mKRAS-specific expanded T cell response relative to baseline levels, noted May","safety,phase",POS,well tolerated
+1051,1051_0,"Preclinical data from ASCO abstract reported that IPH6501, at well-tolerated doses, significantly boosted peripheral NK cell proliferation, drove their accumulation at tumor locations, and effectively",safety,POS,well-tolerated
+1061,1061_0,"Phase 1 data from ASCO abstract reported that one patient achieved unconfirmed partial response, and stable disease was observed in 11 patients (24%), noted May 23, 2024.","sample,phase",POS,achieved
+1063,1063_0,"NDA and accelerated approval application submitted May 24, 2024.",regulatory,POS,approval
+1064,1064_0,Phase 2 clinical efficacy update presented at ASCO abstract showed that monotherapy neoadjuvant treatment was generally well tolerated.,"safety,phase",POS,well tolerated
+1066,1066_0,Phase 1 preliminary results from dose escalation in an ASCO abstract shown to have an acceptable safety profile with no dose-limiting toxicities (DLTs) in heavily pretreated patients with solid tumors,"safety,phase",NEG,DLTs
+1079,1079_0,"Phase 1 data from ASCO abstract reported that SVR35 was achieved by all 3 evaluable pts receiving â‰¥10 mg monotherapy, and 3/12 achieved a best response of SVR35, noted May 24, 2024.",phase,POS,achieved
+1086,1086_0,"Phase 3 data reported that trial met its primary endpoint, noted May 28, 2024.","endpoint,phase",POS,met
+1087,1087_0,"Phase 3 topline data reported that the trial met its primary endpoint, noted May 28, 2024.","endpoint,phase",POS,met
+1093,1093_0,"Phase 3 trial met its primary endpoint, noted May 28, 2024.","endpoint,phase",POS,met
+1097,1097_0,"Phase 3 data reported a statistically significant 36.1% proteinuria (protein in urine) reduction vs. placebo + supportive care at 36 weeks, noted May 28, 2024.",phase,POS,statistically significant
+1098,1098_0,"Phase 3 data reported that patients treated with Fabhalta in addition to supportive care achieved a 35.1% reduction in proteinuria at 6 months when compared to placebo on top of supportive care, noted",phase,POS,achieved
+1101,1101_0,"Phase 1 data from abstract continued to showed that study continues to be well tolerated in the dose expansion portion of the DRAGON trial (Part B), noted May 28, 2024.","safety,phase",POS,well tolerated
+1102,1102_0,"Phase 2 data presented at American Epilepsy Society showed azetukalner 20mg achieved clinically meaningful reductions in depression scores on MADRS and HAM-D17 scales, with a 3.04 point difference vs",phase,POS,achieved
+1103,1103_1,The data showed NRX-101 achieved similar efficacy to lurasidone on dep,catalyst,POS,achieved
+1105,1105_0,Phase 1/2a Safety Review Committee has approved opening enrollment for the 800mg once daily dosing cohort after reviewing favorable safety and pharmacokinetic data from the 550mg cohort.,"safety,phase",POS,favorable safety

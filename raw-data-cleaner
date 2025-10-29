@@ -1,0 +1,72 @@
+import pandas as pd
+from datetime import datetime
+
+# ---- CONFIG ----
+INPUT_FILE = "raw_data_catalysts.csv"   # your input CSV
+OUTPUT_FILE = "cleaned_catalysts.csv"   # name for cleaned CSV
+# ----------------
+
+# Read CSV
+df = pd.read_csv(INPUT_FILE)
+
+# Remove unwanted rows: "Add to portfolio" or blank tickers
+df = df[df["Ticker"].notna()]  # drop NaN
+df = df[df["Ticker"].str.strip().ne("")]  # drop empty strings
+df = df[~df["Ticker"].str.contains("Add to portfolio", case=False, na=False)]
+
+# Clean and convert Date column
+def clean_and_convert_date(date_str):
+    if pd.isna(date_str):
+        return None
+    # Remove trailing " ET" (if present)
+    date_str = str(date_str).strip().replace(" ET", "")
+    # Try DD/MM/YYYY → MM/DD/YYYY
+    try:
+        return datetime.strptime(date_str, "%d/%m/%Y").strftime("%m/%d/%Y")
+    except Exception:
+        # Leave as-is if doesn't match the format
+        return date_str
+
+if "Date" in df.columns:
+    df["Date"] = df["Date"].astype(str).apply(clean_and_convert_date)
+
+
+# Clean Shares column (remove "M" and convert to int millions)
+def clean_shares(value):
+    if pd.isna(value):
+        return None
+    val = str(value).replace("M", "").strip()
+    try:
+        return int(float(val))  # e.g. 1.5M → 1
+    except ValueError:
+        return None
+
+if "Shares" in df.columns:
+    df["Shares_Millions"] = df["Shares"].apply(clean_shares)
+    df.drop(columns=["Shares"], inplace=True)
+
+# Clean Catalyst column (remove "read more" text)
+def clean_catalyst(text):
+    if pd.isna(text):
+        return text
+    cleaned = str(text)
+    # Remove common trailing phrases like "...read more", "Read more", etc.
+    cleaned = cleaned.replace("… read more", "")
+    cleaned = cleaned.replace("... read more", "")
+    cleaned = cleaned.replace("Read more", "")
+    cleaned = cleaned.replace("read more", "")
+    # Clean up whitespace
+    cleaned = cleaned.strip()
+    return cleaned
+
+if "Catalyst" in df.columns:
+    df["Catalyst"] = df["Catalyst"].apply(clean_catalyst)
+
+df.drop(columns=["Company"], inplace=True, errors='ignore')  # drop Company column if exists
+
+# Reset index and save
+df = df.reset_index(drop=True)
+df.to_csv(OUTPUT_FILE, index=False)
+
+print(f"Cleaned data saved to: {OUTPUT_FILE}")
+print(f"Remaining rows: {len(df)}")
