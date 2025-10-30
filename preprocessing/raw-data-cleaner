@@ -2,8 +2,8 @@ import pandas as pd
 from datetime import datetime
 
 # ---- CONFIG ----
-INPUT_FILE = "raw_data_catalysts.csv"   # your input CSV
-OUTPUT_FILE = "cleaned_catalysts.csv"   # name for cleaned CSV
+INPUT_FILE = "data/raw_data_catalysts.csv"   # your input CSV
+OUTPUT_FILE = "data/cleaned_catalysts.csv"   # name for cleaned CSV
 # ----------------
 
 # Read CSV

@@ -4,8 +4,8 @@ import math
 import pandas as pd
 from typing import Optional
 
-INPUT_FILE = "cleaned_catalysts_metadata.csv"
-OUTPUT_FILE = "cleaned_catalysts_cleaned_metadata.csv"
+INPUT_FILE = "data/cleaned_catalysts_metadata.csv"
+OUTPUT_FILE = "data/cleaned_catalysts_cleaned_metadata.csv"
 
 # --- helpers ---
 _SUFFIX_MULTIPLIERS = {
