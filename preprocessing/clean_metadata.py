@@ -49,6 +49,7 @@ def parse_market_cap(val) -> Optional[float]:
             return None
         return num * mult
 
+
     # Not a recognized numeric pattern
     return None
 
