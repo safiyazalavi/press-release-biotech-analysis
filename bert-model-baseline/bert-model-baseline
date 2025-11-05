@@ -1,34 +1,98 @@
 #!/usr/bin/env python3
-import sys
+import sys, os
 import numpy as np
 import pandas as pd
 
+os.environ.setdefault("TOKENIZERS_PARALLELISM", "false")
+os.environ.setdefault("HF_DATASETS_DISABLE_MP", "1")
+
 INPUT_CSV = "data/absa_features.csv"
 OUT_CSV   = "data/absa_features_target.csv"
+OUT_CSV1   = "data/absa_features_target_train.csv"
+OUT_CSV2   = "data/absa_features_target_test.csv"
+
 
 def main():
-    # --- lightweight part runs even if transformers/torch are not installed ---
     df = pd.read_csv(INPUT_CSV)
-
-    # Add TARGET from 5-day return
     df["TARGET"] = np.where(df["Perc_Return_D5"] > 0, "pos", "neg")
-
-    # Save and quick date split
+    df["Date"] = pd.to_datetime(df["Date"]).dt.strftime("%Y-%m-%d")
     df.to_csv(OUT_CSV, index=False)
     print(f"File successfully saved to {OUT_CSV}")
 
-    train_df = df[df["Date"] < "2023-10-01"]
-    test_df  = df[df["Date"] >= "2023-10-01"]
+    train_df = df[df["Date"] < "2024-10-01"].reset_index(drop=True)
+    test_df  = df[df["Date"] >= "2024-10-01"].reset_index(drop=True)
     print(f"Train size: {len(train_df)}, Test size: {len(test_df)}")
 
-    # --- only import heavy libs when you actually start modeling ---
-    # from transformers import BertTokenizer, BertForSequenceClassification
-    # import evaluate
-    # from datasets import load_dataset
-    # (add your BERT baseline here)
+    if "--model" in sys.argv:
+        from transformers import BertTokenizer
+        from datasets import Dataset
+
+        checkpoint = "bert-base-cased"
+        tokenizer = BertTokenizer.from_pretrained(checkpoint)
+
+        ds_train = Dataset.from_pandas(train_df, preserve_index=False)
+        ds_test  = Dataset.from_pandas(test_df,  preserve_index=False)
+
+        max_length = 128
+        def tokenize_batch(batch):
+            return tokenizer(
+                batch["Catalyst"],
+                max_length=max_length,
+                padding="max_length",
+                truncation=True,
+                return_attention_mask=True,
+                return_token_type_ids=True,
+            )
+
+        ds_train = ds_train.map(tokenize_batch, batched=True)
+        ds_test  = ds_test.map(tokenize_batch,  batched=True)
+
+        # Optional: add numeric labels
+        label_map = {"neg": 0, "pos": 1}
+        ds_train = ds_train.map(lambda b: {"labels": [label_map[t] for t in b["TARGET"]]}, batched=True)
+        ds_test  = ds_test.map(lambda b: {"labels": [label_map[t] for t in b["TARGET"]]},  batched=True)
+
+        ds_train.to_csv(OUT_CSV1, index=False)
+        ds_test.to_csv(OUT_CSV2, index=False)
+        print(f"Tokenized datasets saved to {OUT_CSV1} and {OUT_CSV2}")
+
+        #__ Model Training __#
+
+        from transformers import BertForSequenceClassification, TrainingArguments, Trainer
+
+        id2label = {0: "neg", 1: "pos"}
+        label2id = {"neg": 0, "pos": 1}
+
+        model = BertForSequenceClassification.from_pretrained(
+            "bert-base-cased",
+            num_labels=2, id2label=id2label, label2id=label2id
+        )
+
+        # columns required by Trainer
+        cols = ["input_ids", "attention_mask", "token_type_ids", "labels"]
+        ds_train.set_format(type="torch", columns=cols)
+        ds_test.set_format(type="torch", columns=cols)
+
+        args = TrainingArguments(
+            output_dir="out/bert_clf",
+            per_device_train_batch_size=16,
+            per_device_eval_batch_size=32,
+            num_train_epochs=2,
+            learning_rate=2e-5,
+            eval_strategy="epoch",
+            save_strategy="epoch",
+            logging_steps=50,
+        )
+
+        trainer = Trainer(model=model, args=args, train_dataset=ds_train, eval_dataset=ds_test)
+        trainer.train()
+        print(trainer.evaluate())
+
 
 if __name__ == "__main__":
     try:
+        import multiprocessing as mp
+        mp.freeze_support()
         main()
     except Exception as e:
         print("Error:", e)
